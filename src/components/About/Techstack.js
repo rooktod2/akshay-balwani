@@ -4,7 +4,6 @@ import {
   SiNextdotjs,
   SiExpress,
   SiJsonwebtokens,
-  SiAwslambda,
   SiAmazonrds,
   SiAmazons3,
   SiAmazonapigateway,
@@ -21,7 +20,6 @@ import ReactIcon from "../../Assets/TechIcons/React.svg";
 import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Firebase from "../../Assets/TechIcons/Firebase.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Redux from "../../Assets/TechIcons/Redux.svg";
