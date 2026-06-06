@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/akshay_avatar.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -12,44 +12,54 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
-              <br />
-              <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+            <p>
+              I'm a <b className="purple">Full Stack Software Engineer</b>{" "}
+              focused on building reliable, production-ready web and mobile
+              applications across backend, frontend, cloud infrastructure, and
+              third-party integrations.
+            </p>
+
+            <br />
+
+            <p>
+              My experience includes building{" "}
+              <b className="purple">Node.js APIs</b>, PostgreSQL-backed systems,
+              React.js admin panels,
+              <b className="purple"> React Native</b> mobile apps,
+              <b className="purple"> AWS infrastructure</b>, CI/CD pipelines,
+              authentication flows, payment integrations, notification systems,
+              reporting dashboards, and production support for live products.
+            </p>
+
+            <br />
+
+            <p>
+              I work mainly with JavaScript, TypeScript, Node.js, Express.js,
+              PostgreSQL, React.js, React Native, Next.js, AWS, GitLab CI/CD,
+              PM2, REST APIs, and secure backend architecture.
+            </p>
+
+            <br />
+
+            <p>
+              I also use <b className="purple">AI-assisted development</b> as
+              part of my engineering workflow for research, debugging,
+              documentation and refactoring.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{
+                  maxWidth: "300px",
+                  width: "100%",
+                  height: "auto",
+                  borderRadius: "8px",
+                }}
+              />
             </Tilt>
           </Col>
         </Row>

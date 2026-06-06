@@ -572,7 +572,10 @@ button:focus {
   transition: all 0.4s ease 0s !important;
   width: fit-content !important;
   cursor: pointer !important;
-  transition: outline-color 0.3s, outline-width 0.3s, transform 0.3s;
+  transition:
+    outline-color 0.3s,
+    outline-width 0.3s,
+    transform 0.3s;
   color: white;
 }
 
@@ -758,4 +761,25 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.brand-monogram {
+  font-family: "Courier New", monospace;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #c770f0;
+  letter-spacing: 1px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  background: rgba(16, 10, 35, 0.75);
+  box-shadow: 0 0 10px rgba(199, 112, 240, 0.18);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-monogram:hover {
+  color: #d997ff;
+  text-shadow: 0 0 8px rgba(199, 112, 240, 0.55);
 }
